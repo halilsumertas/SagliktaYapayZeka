@@ -1,6 +1,6 @@
 #VKİ Hesaplama Fonksiyonu
 def VkiHesap(kilo,boy):
-    vki = (boy/kilo**2)*100 #Orijinal formülde boy metre cinsinden fakat biz cm cinsinde alıyoruz veriyi. O yüzden 100 ile çarpıyoruz
+    vki = (boy/kilo**2)*10000 #Orijinal formülde boy metre cinsinden fakat biz cm cinsinde alıyoruz veriyi. O yüzden 10000 ile çarpıyoruz
     return vki
 #Tansiyon Hesaplama Fonksiyonu
 def TansiyonHesap(sistolik,diastolik):
